@@ -13,7 +13,7 @@ html {
 .font-kosugi {
     font-family: "Kosugi Maru";
 }
-    a {
+a {
     text-decoration: none;
 }
 li {
@@ -253,8 +253,6 @@ background-image:url(images/japanese-paper_00147.jpg);
 .guid-text {
     margin-bottom: 50px;
 }
-.empty {
-}
 .sauna {
     background-image:url(images/japanese-paper_00030.jpg) ;
     padding-bottom: 150px;
@@ -305,15 +303,12 @@ background-color: #a9eed3;
 .sauna-list p {
     font-size: 18px;
 }
-
-
-    .sauna-list img {
+.sauna-list img {
     width: 350px;
     height: 350px;
     border-radius: 50%;
     margin-bottom: 50px; 
 }
-
 .sauna .item1,.item2,.item3,.item4,.item5,.item6 {
     width: 33%;
     padding-bottom: 150px;
@@ -500,7 +495,7 @@ background-color: #a9eed3;
   
   margin-bottom:30px ;
   }
-  .submit-button {
+.submit-button {
     background-color: rgb(86, 224, 22);
     border-radius: 25px;
     width: 150px;
@@ -510,11 +505,11 @@ background-color: #a9eed3;
     margin-left: 200px;
     box-shadow:0 0 8px gray; 
   }
-  .submit-button:hover {
+.submit-button:hover {
     opacity: 0.8;
     color: #ffffff;
   }
-  .submit-button:active {
+.submit-button:active {
     transform: translateY(10px);
     transition: 0.8;
   }
@@ -527,12 +522,12 @@ background-color: #a9eed3;
         gap: 3rem 2rem;
         justify-items: center;
         }
- .menu-drink {
+.menu-drink {
     margin-bottom: 300px;
  }
 }
 @media screen and (max-width:880px) {
-    .grid {
+.grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
@@ -558,9 +553,6 @@ header nav li {
 }
 .wrapper {
     padding: 0 2% 0 2%;
-}
-.main-visual {
-   
 }
 .about h1 {
     
@@ -591,24 +583,21 @@ header nav li {
 .guidance-list h2 {
    width: 300px;
     }
-.guidance-list p {
-    
-}
 .sauna .item1,.item2,.item3,.item4,.item5,.item6 {
-        width: 48%;
-        padding-bottom: 150px;
+   width: 48%;
+   padding-bottom: 150px;
         }
-        .submit-button {
-            background-color: rgb(86, 224, 22);
-            border-radius: 25px;
-            width: 150px;
-            height: 50px;
-            color:#000000;
-            text-align: center;
-            margin: 0 auto 100px;
-            box-shadow:0 0 8px gray; 
-            margin-left: 200px;
-          }
+.submit-button {
+   background-color: rgb(86, 224, 22);
+   border-radius: 25px;
+   width: 150px;
+   height: 50px;
+   color:#000000;
+   text-align: center;
+   margin: 0 auto 100px;
+   box-shadow:0 0 8px gray; 
+   margin-left: 200px;
+         }
 }
 
 @media screen and (max-width:720px) {
@@ -636,19 +625,19 @@ header nav li {
     padding-bottom: 150px;
     }
 .access iframe {
-        width: 100%;
-        height: 400px;
+    width: 100%;
+    height: 400px;
     }
-    .access-text {
-        background-color:#ffffff;
-        box-shadow: gray 0 0 10px;
-        width: 100%;
-        height: 320px;
-        border-radius: 50px;
-        font-size: 30px;
-        margin-top: 20px;
-        border: #ff3300 2px solid;
-        margin: 20px auto;
+.access-text {
+    background-color:#ffffff;
+    box-shadow: gray 0 0 10px;
+    width: 100%;
+    height: 320px;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-top: 20px;
+    border: #ff3300 2px solid;
+    margin: 20px auto;
     }
 .submit .submit-form1 {
     flex-direction: column;
@@ -657,28 +646,28 @@ header nav li {
     margin-top: 10px;
     width: 200px;
     }
-    .submit-mail {
-       width: 350px;
-       margin-left: 0px;
-        margin-right: 0px;
-        }
-    .submit-contents {
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-bottom: 50px;
-        margin-top: 25px;
-        width: 350px;
-        height: 300px;
+.submit-mail {
+    width: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
     }
-    .submit-button {
-        background-color: rgb(86, 224, 22);
-        border-radius: 25px;
-        width: 150px;
-        height: 50px;
-        color:#000000;
-        text-align: center;
-        margin: 0 auto 100px;
-        box-shadow:0 0 8px gray; 
-        margin-left: 100px;
-      }
+.submit-contents {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    width: 350px;
+    height: 300px;
+    }
+.submit-button {
+    background-color: rgb(86, 224, 22);
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    color:#000000;
+    text-align: center;
+    margin: 0 auto 100px;
+    box-shadow:0 0 8px gray; 
+    margin-left: 100px;
+     }
 }
